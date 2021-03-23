@@ -26,7 +26,7 @@ public class Lesson08 {
   public static void main(String[] args) {
     Student a001 = new Student();
     a001.name = "sato";
-    double[] data = { 40, 65, 50, 10, 30 };
+    double[] data = { 40, 65, 50, 10, 34 };
 
     double avg = a001.calculateAvg(data);
     String result = a001.judge(avg);
